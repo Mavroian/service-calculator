@@ -1,0 +1,52 @@
+/* CalculatorForm.css */
+
+.calculator-form {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Center the services container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container for all the services */
+.service-container {
+  width: 60%;
+}
+
+.total-display {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calculate-btn {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .calculator-form {
+    padding: 10px;
+  }
+
+  /* Adjust the width for small screens */
+  .services-container {
+    width: 90%;
+  }
+}

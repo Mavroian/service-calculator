@@ -1,0 +1,57 @@
+.service-with-sub-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-with-sub-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.sub-service-container {
+  margin-top: 10px;
+}
+
+.sub-service-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sub-service-checkbox {
+  margin-right: 8px;
+}
+
+.sub-service-name {
+  font-size: 14px;
+}
+
+.sub-service-price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.total-container {
+  margin-top: 10px;
+}
+
+.total-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .service-with-sub-container {
+    padding: 10px;
+  }
+}

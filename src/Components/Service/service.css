@@ -1,0 +1,51 @@
+.service-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.input-container {
+  margin-top: 10px;
+}
+
+.input-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.total-container {
+  margin-top: 10px;
+}
+
+.total-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .service-container {
+    padding: 10px;
+  }
+}
