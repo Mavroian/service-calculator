@@ -2,6 +2,7 @@
   "name": "construction-services-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Mavroian/service-calculator",
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@react-pdf/renderer": "^3.1.12",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.14",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^5.0.0",
     "html2canvas": "^1.4.1",
     "install": "^0.13.0",
     "jspdf": "^2.5.1",
@@ -22,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
